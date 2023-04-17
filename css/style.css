@@ -59,7 +59,7 @@
 /*Inizio Etichette + cuore */
  .label_group{
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
  }
  label{
     color: white;
@@ -81,3 +81,11 @@
     right: 0;
  }
  /* fine etichette + cuore */
+/* Inizio titoli  descrizione e prezzi */
+.col_card .new_price {
+    color: red;
+}
+.col_card .old_price{
+    text-decoration: line-through;
+}
+/* Fine titoli  descriozioni e prezzi */
