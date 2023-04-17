@@ -2,4 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+ }  
+ body{
+    font-family: sans-serif;
  }
+/* INIZIO header */
+ header .container_header{
+    background-color: #FF6900;
+    width: 100%;
+ }
+ .row_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1% 0;
+ }
+ .col_gender .gender{
+    margin-right: 10px;
+    color: white;
+ }
+ .logo_header{
+    width: 120px;
+ }
+.col_home_profile .fa-regular{
+    margin-right: 5px;
+ }
+ /* FINE header */
