@@ -88,4 +88,30 @@
 .col_card .old_price{
     text-decoration: line-through;
 }
-/* Fine titoli  descriozioni e prezzi */
+/* Fine titoli  descriozioni e prezzi */    
+/* Inizio footer */
+.container_footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.row_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1% 0;
+}
+h3, .info_footer{
+    color: white;
+}
+.brand_footer{
+    margin-bottom: 10px;
+}
+.info_footer, .fa-brands{
+    margin-right: 5px;
+}
+.find_as{
+    margin-bottom: 5px;
+}
+/*  Fine footer */
