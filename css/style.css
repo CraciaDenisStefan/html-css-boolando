@@ -53,7 +53,7 @@
  }
  /* Fine row */
  /* Dimensioni foto */
- .first_img{
+ .first_img, .h_img{
     width: 100%;
  }
 /*Inizio Etichette + cuore */
@@ -114,4 +114,15 @@ h3, .info_footer{
 .find_as{
     margin-bottom: 5px;
 }
-/*  Fine footer */
+/* Fine footer */
+/* Hover sulle immagini */
+.h_img {
+    display: none;
+}
+.col_card:hover .h_img {
+    display: block;
+    margin-bottom: 4px;
+  }
+.col_card:hover .first_img{
+    display: none;
+}
