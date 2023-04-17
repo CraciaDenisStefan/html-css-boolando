@@ -10,6 +10,10 @@
  header .container_header{
     background-color: #FF6900;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
  }
  .row_header{
     display: flex;
@@ -30,3 +34,50 @@
     margin-right: 5px;
  }
  /* FINE header */
+ /* INIZIO main */
+ /* Creaiamo la row e disponiamo le card */
+ .container_main{
+    margin-top: 3%;
+ }
+ .row_main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+ }
+ .col_card{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    position: relative;
+ }
+ /* Fine row */
+ /* Dimensioni foto */
+ .first_img{
+    width: 100%;
+ }
+/*Inizio Etichette + cuore */
+ .label_group{
+    position: absolute;
+    bottom: 10%;
+ }
+ label{
+    color: white;
+    font-size: 13px;
+    padding: 5px 8px;
+ }
+ .discount{
+    background-color: red;
+ }
+ .sostenibility{
+    background-color: green;
+ }
+ .heart{
+    font-size: 30px;
+    background-color: white;
+    padding: 5px 15px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+ }
+ /* fine etichette + cuore */
